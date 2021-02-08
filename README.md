@@ -26,4 +26,6 @@ The data for this assignment comes from the World Bank ([link](https://databank.
 
 Navigate to the project folder and run the following commands:
 
-pip install simple-http-server python -m SimpleHTTPServer 8080
+pip install simple-http-server 
+
+python -m SimpleHTTPServer 8080
