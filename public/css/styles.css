@@ -1,0 +1,81 @@
+#wrapper {
+  margin:auto;
+  width:1440px;
+}
+input {
+  width:50px;
+}
+svg {
+  border:1px solid gray;
+  border-radius:10px;
+  height:600px;
+  width:600px;
+  margin:5px;
+}
+#linechart {
+  width:800px;
+}
+
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.countrymap {
+  stroke: black;
+}
+
+
+h2, h3 {
+  text-align:center;
+}
+
+div.tooltip-donut {
+  position: absolute;
+  text-align: center;
+  padding: .5rem;
+  background: #FFFFFF;
+  color: #313639;
+  border: 1px solid #313639;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 1.3rem;
+}
+
+
+.axis path, .axis line
+        {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+        
+        .axis text
+        {
+            font-family: 'Arial';
+            font-size: 13px;
+        }
+        /* .tick
+        {
+            stroke-dasharray: 1, 2;
+        } */
+        .bar
+        {
+            fill: FireBrick;
+        }
+        
+        /* .tick:nth-child(2n-1) text {
+          visibility: hidden;
+      } */
+      .axisgray line{
+        stroke: gray;
+      }
+
+      .axisgray path{
+        stroke: floralwhite;
+      }
+      
+      .axisgray text{
+        fill: gray;
+      }
+
+      
